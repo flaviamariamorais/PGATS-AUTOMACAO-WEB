@@ -1,0 +1,70 @@
+Criar nosso diretório (mkdir ou manual)
+Abrir no editor de textos (code . ou manual)
+Inicializar um projeto npm (npm init --yes)
+Instalar o Cypress v13 (ou última, se quiser)
+npm install -D cypress
+Abrir e iniciar a config do projeto
+npx cypress open
+Avançar até executar o primeiro teste
+
+
+https://www.automationexercise.com/
+
+https://automationexercise.com/test_cases
+
+https://docs.cypress.io/app/plugins/plugins-list
+
+Acho legal essa página aqui que comenta sobre a prioridade dos seletores que o cypress utiliza: 
+https://docs.cypress.io/api/cypress-api/element-selector-api
+
+samuelborgeslucas@gmail.com
+
+https://docs.cypress.io/app/references/command-line#cypress-run
+
+
+---
+
+https://github.com/faker-js/faker 
+
+https://chancejs.com/usage/node.html
+
+https://github.com/samlucax
+-----
+https://the-internet.herokuapp.com
+
+
+https://developer.chrome.com/blog/webdriver-bidi?hl=pt-br
+
+https://docs.cypress.io/api/commands/invoke
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/DataTransfer
+
+https://github.com/4teamwork/cypress-drag-drop
+
+https://developers.google.com/recaptcha/docs/faq?hl=pt-br#id-like-to-run-automated-tests-with-recaptcha.-what-should-i-do
+
+----
+- https://github.com
+- criar um novo repositório
+- seguir os comandos de sugestão do próprio github
+.gitignore
+coloca dentro do gitignore
+
+node_modules
+package-lock.json
+
+cypress/screenshots
+cypress/videos
+cypress/reports
+-----
+
+git status 
+git add nome_do_arquivo
+git add .
+
+git commit -m "mensagem do commit"
+
+git push
+git pull
+
+------
