@@ -1,0 +1,38 @@
+{
+    "auth": {
+        "username": "flaviamorais_PVKSkB",
+        "access_key": "stsBYgjms4fVkjzEzPXH"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        },
+     
+    ],
+       
+    "run_settings": {
+        "cypress_config_file": "./cypress.config.json",
+        "cypress_version": "13.7",
+        "project_name": "pgats-automacao-web",
+        "build_name": "build-name",
+        "exclude": [],
+        "parallels": "1",
+        "npm_dependencies": {},
+        "auto_import_dev_dependencies": false,
+        "exclude_dependencies": [],
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}

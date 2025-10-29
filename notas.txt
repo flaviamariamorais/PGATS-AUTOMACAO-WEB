@@ -59,8 +59,7 @@ cypress/reports
 -----
 
 git status 
-git add nome_do_arquivo
-git add .
+git add nome_do_arqui
 
 git commit -m "mensagem do commit"
 
@@ -68,3 +67,29 @@ git push
 git pull
 
 ------
+
+https://jarbon.medium.com/
+https://testers.ai/
+
+https://github.com/microsoft/playwright-mcp
+https://github.com/angiejones/mcp-selenium
+https://www.cypress.io/blog/cy-prompt-vs-mcp-agents-ai-designed-for-testing-not-just-tasks
+
+
+-----
+
+https://home.testcraft.app/
+
+https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html
+https://www.w3.org/WAI/WCAG22/quickref/?versions=2.1#link-purpose-in-context
+
+https://docs.cypress.io/app/guides/cypress-studio
+
+https://docs.cypress.io/app/core-concepts/best-practices
+
+https://github.com/goldbergyoni/javascript-testing-best-practices/?tab=readme-ov-file#section-3%EF%B8%8F%E2%83%A3-frontend-testing 
+
+https://github.com/goldbergyoni/javascript-testing-best-practices/blob/master/readme-pt-br.md (traduzida
+
+
+https://automationexercise.com/test_cases 

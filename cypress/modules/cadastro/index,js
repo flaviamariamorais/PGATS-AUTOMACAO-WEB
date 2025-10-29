@@ -1,0 +1,3 @@
+// compatibility shim: re-export default from the real index.js
+export { default } from './index.js';
+
