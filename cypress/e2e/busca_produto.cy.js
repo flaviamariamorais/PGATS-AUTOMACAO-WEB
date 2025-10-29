@@ -9,7 +9,7 @@ describe('Buscar produto', () => {
     cy.get('a[href="/products"]').should('be.visible').click();
 
      // 3. Verifica que a home page é visivel
-   // cy.url().should('eq', 'https://www.automationexercise.com/');
+   
     cy.get('body').should('contain.text', 'Home');
 
     // 4. Verifica que está na página ALL PRODUCTS

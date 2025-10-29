@@ -20,10 +20,9 @@ describe('Automation Exercise', () => {
 
        entrarNaPaginaInicial();
 
-       //cy.get('a[href="/login"]').click()
        navegarParaLogin();
 
-      //cadastro.preencherFormularioDePreCadastro();
+      
       cadastro.preencherFormularioDePreCadastro();
 
       cadastro.preencherFormularioDeCadastroCompleto();

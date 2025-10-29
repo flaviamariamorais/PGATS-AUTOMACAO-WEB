@@ -11,8 +11,7 @@ describe('Automation Exercise', () => {
 
        entrarNaPaginaInicial();
 
-      // cy.get('a[href="/login"]').click()
-        navegarParaLogin();
+       navegarParaLogin();
 
        cy.get('[data-qa="signup-name"]').type('Flavia') 
        cy.get('[data-qa="signup-email"]').type(`fmorais.cursos@gmail.com.com`)

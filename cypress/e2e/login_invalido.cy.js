@@ -7,17 +7,12 @@ import { entrarNaPaginaInicial} from '../modules/menu';
 
 describe('Automation Exercise', () => {
     it('login invalido', () => {
-        //const timestamp = new Date().getTime();
+        
 
        entrarNaPaginaInicial();
-
-       //cy.get('a[href="/login"]').click()
+   
 
        navegarParaLogin();
-
-       //cy.get('[data-qa="login-email"]').type(`f.morais.cursos@gmail.com`)
-       //cy.get('[data-qa="login-password"]').type('teste123')
-       //cy.get('[data-qa="login-button"]').click()
 
        login.preencherFormularioDeLogin('f.morais.cursos@gmail.com', 'teste1234');
 

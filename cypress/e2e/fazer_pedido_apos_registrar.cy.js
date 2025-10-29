@@ -39,13 +39,7 @@ describe('Fazer pedido após registrar-se', () => {
     cy.contains('Account Created!').should('be.visible');
     cy.get('[data-qa="continue-button"]').click();
 
-    // 4. Adicionar produto ao carrinho
-   //cy.get('.features_items .product')
-//.first() 
-//.find('.add-to-cart') 
-//.click({ force: true }) 
-    //.contains('Continue Shopping').click();
-
+    
     // Espera o conteúdo principal aparecer
     cy.get('.features_items', { timeout: 10000 }).should('be.visible')
 

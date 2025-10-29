@@ -17,7 +17,6 @@ describe('Automation Exercise', () => {
        cy.get('a[href="/contact_us"]').click()
        
 
-      // cy.get('[data-qa="name"]').type(getRandomName())
        cy.get('[data-qa="name"]', { timeout: 20000 })
             .should('be.visible')
             .type(getRandomName());

@@ -13,11 +13,7 @@ describe('Automation Exercise', () => {
         
         entrarNaPaginaInicial();
 
-       //cy.visit('https://www.automationexercise.com/');
-
-       //cy.get('a[href="/login"]').click()
-
-       navegarParaLogin();
+        navegarParaLogin();
        
 
        cy.get('[data-qa="login-email"]').type(`fmorais.cursos@gmail.com`)

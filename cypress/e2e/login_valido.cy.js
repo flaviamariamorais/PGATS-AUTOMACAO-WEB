@@ -12,14 +12,9 @@ describe('Automation Exercise', () => {
 
        entrarNaPaginaInicial();
 
-       //cy.get('a[href="/login"]').click()
        navegarParaLogin();
 
-       //cy.get('[data-qa="login-email"]').type(`fmorais.cursos@gmail.com`)
-       //cy.get('[data-qa="login-password"]').type('teste123')
-
-       //cy.get('[data-qa="login-button"]').click()
-
+       
        login.preencherFormularioDeLogin(userData.user, userData.password)
 
        
